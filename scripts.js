@@ -51,3 +51,22 @@ function exerc_3(){
     var texto = "O menor número é " + menor_numero;
     document.getElementById("resultado").innerHTML = texto;
 }
+
+function exerc_4(){
+    numero = document.getElementById('numero').value;
+
+    if(numero > 0){
+        if(numero % 2 == 0){
+            var texto = "O número é par.";
+        }
+        else{
+            var texto = "O número é ímpar.";
+        }
+    }
+    else{
+        valor_absoluto = Math.abs(numero);
+        var texto = "O valor absoluto é " + valor_absoluto;
+    }
+    
+    document.getElementById("resultado").innerHTML = texto;
+}
