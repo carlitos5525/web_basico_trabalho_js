@@ -31,3 +31,23 @@ function exerc_2(){
     var texto = "O peso ideal é " + peso_ideal + "kg.";
     document.getElementById("resultado").innerHTML = texto;
 }
+
+function exerc_3(){
+    num_1 = document.getElementById('numero_1').value;
+    num_2 = document.getElementById('numero_2').value;
+    num_3 = document.getElementById('numero_3').value;
+
+    var menor_numero = 0;
+
+    if(num_1 < num_2 && num_1 < num_3){
+        menor_numero = num_1;
+    }
+    else if(num_2 < num_1 && num_2 < num_3){
+        menor_numero = num_2;
+    }
+    else if(num_3 < num_1 && num_3 < num_2){
+        menor_numero = num_3;
+    }
+    var texto = "O menor número é " + menor_numero;
+    document.getElementById("resultado").innerHTML = texto;
+}
