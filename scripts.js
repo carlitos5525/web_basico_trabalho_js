@@ -84,3 +84,17 @@ function exerc_5(){
     document.getElementById("resultado").innerHTML = texto;
 
 }
+
+function exerc_6(){
+    numero = document.getElementById('numero').value;
+
+    if(numero % 2 == 0 || numero % 7 == 0){
+        var texto = "O número é divisível por 2 ou por 7.";
+
+    }
+    else{
+        var texto = "O número NÃO é divisível por 2 ou por 7";
+    }
+
+    document.getElementById("resultado").innerHTML = texto;
+}
