@@ -158,3 +158,16 @@ function exerc_9(){
     document.getElementById("resultado").innerHTML = texto;
 
 }
+
+function exerc_10(){
+    numero = document.getElementById('numero').value;
+    var resultado = 1;
+
+    for(i = numero; i > 0; i--){
+        resultado = resultado * i;
+    }
+
+    texto = "O resultado é " + resultado;
+    document.getElementById("resultado").innerHTML = texto;
+
+}
