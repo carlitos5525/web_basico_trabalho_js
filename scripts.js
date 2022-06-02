@@ -70,3 +70,17 @@ function exerc_4(){
     
     document.getElementById("resultado").innerHTML = texto;
 }
+
+function exerc_5(){
+    numero = document.getElementById('numero').value;
+
+    if(numero % 2 == 0 && numero % 3 == 0){
+        var texto = "O número é divisível por 2 e por 3.";
+    }
+    else{
+        var texto = "O número NÃO é divisível por 2 e por 3";
+    }
+
+    document.getElementById("resultado").innerHTML = texto;
+
+}
