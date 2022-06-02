@@ -131,3 +131,16 @@ function exerc_7(){
     document.getElementById("resultado").innerHTML = texto;
 
 }
+
+function exerc_8(){
+    var soma = 0;
+    for(i = 1; i <= 20; i++){
+        if(i % 2 == 0){
+            soma = soma + i;
+        }
+    }
+    var texto = "A soma é " + soma;
+
+    document.getElementById("resultado").innerHTML = texto;
+
+}
