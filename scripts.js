@@ -98,3 +98,36 @@ function exerc_6(){
 
     document.getElementById("resultado").innerHTML = texto;
 }
+
+function exerc_7(){
+    numero = document.getElementById('numero').value;
+
+    switch(numero){
+        case '1':
+            texto = "Domingo";
+            break;
+        case '2':
+            texto = "Segunda-feira";
+            break;
+        case '3':
+            texto = "Terça-feira";
+            break;
+        case '4':
+            texto = "Quarta-feira";
+            break;
+        case '5':
+            texto = "Quinta-feira";
+            break;
+        case '6':
+            texto = "Sexta-feira";
+            break;
+        case '7':
+            texto = "Sábado";
+            break;
+        default:
+            texto = "Escolha um número no intervalo correto";
+    }
+
+    document.getElementById("resultado").innerHTML = texto;
+
+}
