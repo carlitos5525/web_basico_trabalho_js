@@ -144,3 +144,17 @@ function exerc_8(){
     document.getElementById("resultado").innerHTML = texto;
 
 }
+
+function exerc_9(){
+    numero = document.getElementById('numero').value;
+    var texto = '';
+
+    for(i = 1; i <= 10; i++){
+        resultado = numero * i;
+        var tabuada = numero + "x" + i + "=" + resultado + ", ";
+        texto =  texto + tabuada;
+    }
+
+    document.getElementById("resultado").innerHTML = texto;
+
+}
